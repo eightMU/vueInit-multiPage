@@ -1,0 +1,25 @@
+
+//水平方向上布局
+@mixin flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+//垂直方向上布局
+@mixin flex-vertical-container {
+  @include flex-container;
+  flex-direction: column;
+}
+
+@mixin flex-between {
+  @include flex-container;
+  justify-content: space-between;
+}
+
+@mixin flex-around {
+  @include flex-container;
+  justify-content: space-around;
+}

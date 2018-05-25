@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <main-head title="游乐场"></main-head>
-
-    <bottom index = "0"></bottom>
+    <main-head title="我的"></main-head>
+    <a href="../personal/index.html">per</a>
+    <bottom index = "2"></bottom>
   </div>
 </template>
 

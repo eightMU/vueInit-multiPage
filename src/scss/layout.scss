@@ -1,0 +1,17 @@
+.flex-container {
+  @include flex-container;
+}
+
+.flex-vertical-container {
+  @include flex-vertical-container;
+}
+
+.flex-between {
+  @include flex-between;
+}
+
+.flex-around {
+  @include flex-around;
+}
+
+
