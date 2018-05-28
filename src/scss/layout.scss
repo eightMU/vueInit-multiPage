@@ -14,4 +14,17 @@
   @include flex-around;
 }
 
+.pof-center {
+  @include pof-center()
+}
 
+
+//.poa-center {
+//  @include po-center("absolute")
+//}
+//.pof-bottom-center {
+//  @include pob-center("fixed")
+//}
+//.poa-bottom-center {
+//  @include pob-center("absolute")
+//}

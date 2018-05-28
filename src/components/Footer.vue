@@ -36,6 +36,11 @@
 </script>
 
 <style lang="scss" scoped>
+  .footer {
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
+  }
   .btn-wrap {
     display: inline-block;
     .btn {
