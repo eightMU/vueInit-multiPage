@@ -1,20 +1,23 @@
 <template>
-  <div id="app">
-    <main-head title="游乐场"></main-head>
-    <user-info avatar="../assets/userinfo/img_coin_small.png" nickname="太空鲨"></user-info>
-    <banner></banner>
-    <bottom index = "0"></bottom>
+  <div id="app" class="flex-vertical-container">
+    <main-head title="登录"></main-head>
+    <input type="text"/>
+    <button>登录</button>
   </div>
 </template>
 
 <script>
-import Bottom from "../../components/Footer";
 import MainHead from "../../components/Header";
-import UserInfo from "../../components/UserInfo";
-import Banner from "../../components/Banner";
+
 export default {
   name: 'App',
-  components: {Banner, UserInfo, MainHead, Bottom},
+  components: {MainHead},
+  data(){
+    return {
+
+    }
+  },
+
 }
 </script>
 
